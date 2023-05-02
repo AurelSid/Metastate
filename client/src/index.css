@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.white-glassmorphismlight {
+  background: rgba(255, 255, 255, 0.219);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.gradient-bg-section1 {
+  background-color: black;
+  background-image: radial-gradient(
+    at 0% 0%,
+    hsl(204, 100%, 50%) 0,
+    transparent 50%
+  );
+}
+.gradient-bg-section2 {
+  background-color: black;
+  background-image: radial-gradient(
+    at 100% 100%,
+    hsl(155, 97%, 25%) 0,
+    transparent 40%
+  );
+}
+.gradient-bg-hero {
+  background-color: black;
+  background-image: radial-gradient(
+      at 100% 0%,
+      hsl(155, 100%, 50%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 0% 100%, hsl(204, 100%, 50%) 0, transparent 50%);
+}
+.gradient-bg-press {
+  background-color: black;
+  background-image: radial-gradient(
+      at 100% 0%,
+      hsl(155, 97%, 25%) 0,
+      transparent 40%
+    ),
+    radial-gradient(at 0% 100%, hsl(189, 98%, 33%) 0, transparent 50%);
+}
+
+.square-pointer {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Crect width='10' height='10' fill='none' stroke='white' stroke-width='1'/%3E%3Ccircle cx='5' cy='5' r='1' fill='white'/%3E%3C/svg%3E")
+      5 5,
+    auto;
+}
